@@ -1,0 +1,120 @@
+:root {
+    --soft-coral: #ffaaaa;
+    --coral: #ff5555;
+    --red: #FF2121;
+    --soft-cyan: #94FFEF;
+    --cyan: #02e9c6; 
+    --dark: #15202a;
+    --grey: #333333;
+}
+
+.coral {
+    background-color: var(--coral);
+}
+
+.soft-coral {
+    color: var(--soft-coral);
+}
+
+.red {
+    background-color: var(--red);
+}
+
+.red-text {
+    color: var(--red);
+}
+
+.red-input {
+    border: solid var(--red) .3rem;
+}
+
+.cyan {
+    background-color: var(--cyan);
+}
+
+.soft-cyan {
+    color: var(--soft-cyan);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--dark);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1.1rem 2rem;
+    width: 23rem;
+}
+
+.config {
+    cursor: pointer;
+    display: block;
+    filter: invert(75%);
+    width: 1.7rem;
+}
+
+.input {
+    color: var(--grey);
+    font-size: 1.2rem;
+    height: 2rem;
+    margin: .4rem 0;
+    outline: none;
+    padding: .3rem;
+    width: 100%;
+}
+
+.button {
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    margin: .7rem 0;
+    padding: .3rem;
+}
+
+.input, .button {
+    border-radius: .5rem;
+}
+
+.shortcut-is-added_text {
+    color: var(--soft-coral);
+    margin-bottom: .3rem;
+}
+
+.shortcut-is-added_text, .shortcut {
+    font-weight: bold;
+    text-align: center;
+}
+
+.shortcut {
+    color: var(--cyan);
+    font-size: 1.2em;
+}
+
+.text {
+    margin-bottom: .3rem;  
+}
+
+.center {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    width: 3rem;
+}
+
+.right {
+    float: right;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Web Shortcuts",
+    "version": "1.0",
+    "description": "Create shortcuts for your favorite websites.",
+    "action": {
+        "default_title": "Web Shortcuts",
+        "default_popup": "popup/index.html",
+        "default_icon": {
+            "16": "assets/logos/logo-16.png",
+            "32": "assets/logos/logo-32.png",
+            "48": "assets/logos/logo-48.png",
+            "128": "aseets/logos/logo-128.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "options_page" : "options/index.html",
+    "permissions": ["tabs", "storage"],
+    "omnibox": {"keyword": "."},
+    "icons": {
+        "16": "assets/logos/logo-16.png",
+        "32": "assets/logos/logo-32.png",
+        "48": "assets/logos/logo-48.png",
+        "128": "assets/logos/logo-128.png"
+    },
+    "author": "Raul Armas",
+    "manifest_version": 3
+}
